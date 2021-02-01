@@ -7,16 +7,16 @@ import Swordsman from './js/Swordsman';
 import Undead from './js/Undead';
 import Zombie from './js/Zombie';
 
-const Person1 = new Bowerman('Person1');
-const Person2 = new Daemon('Person2');
-const Person3 = new Magician('Person3');
-const Person4 = new Swordsman('Person4');
-const Person5 = new Undead('Person5');
-const Person6 = new Zombie('Person6');
+const personOne = new Bowerman('Алексей');
+const personTwo = new Daemon('Антон');
+const personThree = new Magician('Анастасия');
+const personFour = new Swordsman('Роман');
+const personFive = new Undead('Олег');
+const personSix = new Zombie('Юлия');
 
-console.log(Person1);
-console.log(Person2);
-console.log(Person3);
-console.log(Person4);
-console.log(Person5);
-console.log(Person6);
+console.log(personOne);
+console.log(personTwo);
+console.log(personThree);
+console.log(personFour);
+console.log(personFive);
+console.log(personSix);
